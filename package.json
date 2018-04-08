@@ -1,0 +1,13 @@
+{
+  "name": "Blob Spam Bot",
+  "description": "Spam Blob Bot",
+  "version": "1.0.0",
+  "main": "BlobSpam.py",
+  "scripts": {
+    "start": "python BlobSpam.py"
+  },
+  "dependencies": {
+    "discord.py": "11.1.0",
+    "request": "2.81.0"
+  }
+}
