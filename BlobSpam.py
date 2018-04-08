@@ -5,7 +5,7 @@ import asyncio
 import time
 import random
 
-blobs = [':lennyblob:',':killerblob:',':blobzipmouth:',':blobwaitwhat:',':blobunamused:',':blobsuspect:',':blobstop:',':blobsob:',':blobscream:',':blobscared:',':blobpeek:',':blobpatrol:',':blobok:',':blobnom:',':blobninja:',':blobnarrowedeye:',':blobmelt:',':blobhurt:',':blobhmm:',':blobgrinning:',':blobfacepalm:',':blobexpressionless:',':blobdrool:',':blobdizzy:',':blobdevil:',':blobcry2:',':blobaww:',':blobangry3:',':blobangel:']
+blobs = [':eyes:',':lennyblob:',':killerblob:',':blobzipmouth:',':blobwaitwhat:',':blobunamused:',':blobsuspect:',':blobstop:',':blobsob:',':blobscream:',':blobscared:',':blobpeek:',':blobpatrol:',':blobok:',':blobnom:',':blobninja:',':blobnarrowedeye:',':blobmelt:',':blobhurt:',':blobhmm:',':blobgrinning:',':blobfacepalm:',':blobexpressionless:',':blobdrool:',':blobdizzy:',':blobdevil:',':blobcry2:',':blobaww:',':blobangry3:',':blobangel:']
 
 Client = discord.Client()
 client = commands.Bot(command_prefix = ">:)")
