@@ -24,7 +24,7 @@ async def on_message(message):
         for i in range(25):
             print('in loop')
             time.sleep(1)
-            await client.send_message(message.channel, blobs[random.randint(0,28)])
+            await client.send_message(message.channel, blobs[14])#random.randint(0,28)])
             
 
 client.run("NDMyMjM4MDU4NTA3ODYyMDM3.DaqaDA.QaN3-bnd2H6rFbUog5J85axfGyQ")
