@@ -22,14 +22,21 @@ async def on_message(message):
         userID = message.author.id
         await client.send_message(message.channel, 'as you wish <@%s>' %(userID))
         args = message.content.split(" ")
+        
         if int(args[1]) <= 25:
             val = int(args[1])
         else:
             val = 25
         for i in range(val):
-            print('in loop')
             time.sleep(1)
-            await client.send_message(message.channel, blobs[random.randint(0,28)])
+            if userID == 'millman97':
+                await client.send_message(message.channel, 'Oh its only you' )
+                await client.send_message(message.channel, blobs[6])
+            elif userID == 'OPrawnxia':
+                await client.send_message(message.channel, 'You have made a grave enemy' )
+                await client.send_message(message.channel, blobs[1])
+            else:
+                await client.send_message(message.channel, blobs[random.randint(0,28)])
             
 
 client.run("NDMyMjM4MDU4NTA3ODYyMDM3.DaqaDA.QaN3-bnd2H6rFbUog5J85axfGyQ")
