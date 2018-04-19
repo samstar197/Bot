@@ -30,10 +30,10 @@ async def on_message(message):
             val = 25
         for i in range(val):
             time.sleep(1)
-            if userID == 207963869895852032:
+            if userID == '207963869895852032':
                 await client.send_message(message.channel, 'Oh its only you' )
                 await client.send_message(message.channel, blobs[16])
-            elif userID == 418599237501059072:
+            elif userID == '418599237501059072':
                 await client.send_message(message.channel, 'You have made a grave enemy' )
                 await client.send_message(message.channel, blobs[1])
             else:
