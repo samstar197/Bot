@@ -21,6 +21,7 @@ async def on_message(message):
     if message.content.startswith(">:)"):
         userID = message.author.id
         await client.send_message(message.channel, 'as you wish <@%s>' %(userID))
+        print(userID)
         args = message.content.split(" ")
         
         if int(args[1]) <= 25:
