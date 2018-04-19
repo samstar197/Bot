@@ -32,7 +32,7 @@ async def on_message(message):
             if 'millman97' in userID:
                 await client.send_message(message.channel, 'Oh its only you' )
                 await client.send_message(message.channel, blobs[16])
-            elif 'OPrawnxia' in userID:
+            elif '0Prawnxia' in userID:
                 await client.send_message(message.channel, 'You have made a grave enemy' )
                 await client.send_message(message.channel, blobs[1])
             else:
