@@ -33,12 +33,7 @@ async def on_message(message):
             val = 25
         for i in range(val):
             time.sleep(1)
-            if userID == '207963869895852032':
-                await client.send_message(message.channel, blobs[15])
-            elif userID == '418599237501059072':
-                await client.send_message(message.channel, blobs[1])
-            else:
-                await client.send_message(message.channel, blobs[random.randint(0,28)])
+            await client.send_message(message.channel, blobs[random.randint(0,28)])
             
 
 client.run("NDMyMjM4MDU4NTA3ODYyMDM3.DaqaDA.QaN3-bnd2H6rFbUog5J85axfGyQ")
