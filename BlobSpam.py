@@ -1,6 +1,7 @@
 import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
+import os
 import asyncio
 import time
 import random
@@ -47,4 +48,4 @@ async def on_message(message):
                 await client.send_message(message.channel, blobs[random.randint(0,28)])
 
 
-client.run(TOKEN)
+client.run(os.environ['TOKEN'])
