@@ -10,6 +10,7 @@ blobs = ['<:lennyblob:420025593971736576>','<:killerblob:421158118131499020>','<
 Client = discord.Client()
 client = commands.Bot(command_prefix = ">:)")
 
+TOKEN = input("What is the token: ")
 
 
 @client.event
@@ -46,4 +47,4 @@ async def on_message(message):
                 await client.send_message(message.channel, blobs[random.randint(0,28)])
 
 
-client.run("NDMyMjM4MDU4NTA3ODYyMDM3.DaqaDA.QaN3-bnd2H6rFbUog5J85axfGyQ")
+client.run(TOKEN)
