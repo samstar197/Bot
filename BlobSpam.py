@@ -11,7 +11,7 @@ blobs = ['<:lennyblob:420025593971736576>','<:killerblob:421158118131499020>','<
 Client = discord.Client()
 client = commands.Bot(command_prefix = ">:)")
 
-TOKEN = input("What is the token: ")
+#TOKEN = input("What is the token: ")
 
 
 @client.event
