@@ -35,6 +35,8 @@ async def on_message(message):
             await client.send_message(message.channel, 'Get in Ethan I literally said not really more than 10...' )
         if userID == '418896224628768768' and int(args[1]) <= 10:
             val = int(args[1])
+            if args[1] == '':
+                val = 1
             for i in range(val):
                 time.sleep(1)
                 await client.send_message(message.channel, blobs[random.randint(0,28)])
