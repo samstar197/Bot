@@ -53,8 +53,8 @@ async def on_message(message):
 
                 if val == '':
                     val = 1
-                else:
-                    val = 25
+            else:
+                val = 25
             for i in range(val):
                 time.sleep(1)
                 await client.send_message(message.channel, blobs[random.randint(0,28)])
