@@ -45,17 +45,16 @@ async def on_message(message):
                 time.sleep(1)
                 await client.send_message(message.channel, blobs[random.randint(0,28)])
         if userID != '418896224628768768':
-            if int(args[1]) <= 25:
-                try:
-                    val = args[1]
-                except:
-                    val = 1
+            try:
+                val = args[1]
+            except:
+                val = 1
 
-                if val == '':
-                    val = 1
-            else:
+            if val == '':
+                val = 1
+            elif int(val) > 25:
                 val = 25
-            for i in range(val):
+            for i in range(int(val)):
                 time.sleep(1)
                 await client.send_message(message.channel, blobs[random.randint(0,28)])
 
