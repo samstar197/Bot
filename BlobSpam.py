@@ -29,7 +29,7 @@ async def on_message(message):
             await client.send_message(message.channel, 'Good day, Millie' )
             
         if userID == '77517076083769344':
-            await Client.send_message(message.channel, 'Fuck off Nawab')
+            await client.send_message(message.channel, 'Fuck off Nawab')
             
         if userID == '418599237501059072':
             await client.send_message(message.channel, 'You have made a grave enemy' )
@@ -47,7 +47,7 @@ async def on_message(message):
             for i in range(int(val)):
                 time.sleep(1)
                 await client.send_message(message.channel, blobs[random.randint(0,28)])
-        if userID != '418896224628768768':
+        if userID != '418896224628768768' and userID != '77517076083769344':
             try:
                 val = args[1]
             except:
