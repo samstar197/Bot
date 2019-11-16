@@ -28,6 +28,9 @@ async def on_message(message):
         if userID == '207963869895852032':
             await client.send_message(message.channel, 'Good day, Millie' )
             
+        if userID == '77517076083769344':
+            await Client.send_message(message.channel, 'Fuck off Nawab')
+            
         if userID == '418599237501059072':
             await client.send_message(message.channel, 'You have made a grave enemy' )
         
